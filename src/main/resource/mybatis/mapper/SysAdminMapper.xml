@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.edu.xu.mapper.SysAdminMapper">
+    <cache/>
+    <resultMap id="BaseResultMap" type="com.edu.xu.entity.SysAdmin">
+        <result column="uid" property="uid"></result>
+        <result column="account" property="account"></result>
+        <result column="password" property="password"></result>
+        <result column="dept_uid" property="deptUid"></result>
+        <result column="phone" property="phone"></result>
+        <result column="real_name" property="realName"></result>
+        <result column="state" property="state"></result>
+        <result column="create_time" property="createTime"></result>
+        <result column="update_time" property="updateTime"></result>
+        <result column="is_del" property="isDel"></result>
+        <result column="is_default" property="isDefault"></result>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+    uid, account, dept_uid AS deptUid,password,phone,real_name AS realName, state,create_time AS createTime, update_time AS updateTime, is_del AS isDel, is_default AS isDefault
+    </sql>
+
+</mapper>

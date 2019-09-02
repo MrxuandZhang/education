@@ -1,0 +1,61 @@
+.ibox{
+	margin-bottom: 0;
+}
+
+.bootstrap-table .table:not(.table-condensed),
+.bootstrap-table .table:not(.table-condensed)>tbody>tr>td,
+.bootstrap-table .table:not(.table-condensed)>tbody>tr>th,
+.bootstrap-table .table:not(.table-condensed)>tfoot>tr>td,
+.bootstrap-table .table:not(.table-condensed)>tfoot>tr>th,
+.bootstrap-table .table:not(.table-condensed)>thead>tr>td {
+	padding: 5px;
+}
+
+.fixed-table-container tbody td .th-inner,
+.fixed-table-container thead th .th-inner {
+	padding: 5px;
+}
+
+.bootstrap-table .table{
+	border-bottom: none;
+	table-layout: fixed!important;
+}
+
+.fixed-table-toolbar .bs-bars, .fixed-table-toolbar .columns, .fixed-table-toolbar .search {
+    line-height: normal;
+	margin:0;
+}
+
+.fixed-table-pagination{
+	/* background-color:#f3f3f3; */
+	margin-top:10px;
+}
+
+.bootstrap-table .table thead{
+	background-color:#f3f3f3;
+}
+
+.fixed-table-pagination .pagination-detail{
+	margin:0;
+}
+
+.fixed-table-container{
+	margin-top:10px;
+}
+.pagination-info-children-one,.pagination-info-children-three,.pagination-info-children-five,.pagination-info-children-seven{
+	padding:1px 8px;
+}
+.pagination-info-children-two,.pagination-info-children-four,.pagination-info-children-six{
+	border-left:1px solid #d6d6d6;
+	border-right:1px solid #d6d6d6;
+	padding:1px 8px;
+}
+.pagination-info-children-one{
+	border-left:4px solid #d6d6d6;
+}
+.pagination-info-children-seven{
+	/* border-right:4px solid #d6d6d6; */
+}
+.fixed-table-loading{
+	padding:8px;
+}
