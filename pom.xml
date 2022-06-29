@@ -29,7 +29,7 @@
         <commons.fileupload.version>1.3.2</commons.fileupload.version>
         <common.codec.version>1.9</common.codec.version>
         <commons.lang.version>2.6</commons.lang.version>
-        <apache.poi.version>3.9</apache.poi.version>
+        <apache.poi.version>4.1.1</apache.poi.version>
         <druid.version>1.0.18</druid.version>
 
         <jackson.version>2.8.6</jackson.version>
